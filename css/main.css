@@ -1,1 +1,25 @@
 /* CSS IDs Classes */
+
+.test {
+    position: relative;
+    margin: 100px auto;
+    border: 1px solid #000;
+    background-color: #ccc;
+}
+
+.test:before,
+.test:after {
+    content: '';
+}
+
+
+/* this is a before selector */
+.test:before {
+
+}
+
+
+/* this is a after selector */
+.test:after {
+
+}
